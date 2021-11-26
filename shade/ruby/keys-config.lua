@@ -786,7 +786,7 @@ function hotkeys:init(args)
 		},
 
 		{
-			{ env.mod }, "Return", function() awful.spawn(env.terminal) end,
+			{ env.mod }, "Return", function() awful.spawn("gnome-terminal") end,
 			{ description = "Open a terminal", group = "Applications" }
 		},
 		{
